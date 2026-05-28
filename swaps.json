@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28 06:05 UTC",
+  "updated_at": "2026-05-28 10:10 UTC",
   "sources": [
     "exness-sf",
     "exness-std",
@@ -8,60 +8,6 @@
     "hf-zero"
   ],
   "swaps": {
-    "GBPUSD": {
-      "exness-std": {
-        "long": -1.1,
-        "short": -1.6,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      },
-      "hf-premium": {
-        "long": -3.1,
-        "short": -3.7,
-        "contractSize": 100000
-      },
-      "hf-pro": {
-        "long": -3.1,
-        "short": -3.7,
-        "contractSize": 100000
-      },
-      "hf-zero": {
-        "long": -3.1,
-        "short": -3.7,
-        "contractSize": 100000
-      }
-    },
-    "CADCHF": {
-      "exness-std": {
-        "long": 0,
-        "short": -4.6,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      },
-      "hf-premium": {
-        "long": 0.0,
-        "short": -5.3,
-        "contractSize": 100000
-      },
-      "hf-pro": {
-        "long": 0.0,
-        "short": -5.3,
-        "contractSize": 100000
-      },
-      "hf-zero": {
-        "long": 0.0,
-        "short": -5.3,
-        "contractSize": 100000
-      }
-    },
     "EURUSD": {
       "exness-std": {
         "long": -6.5,
@@ -89,10 +35,22 @@
         "contractSize": 100000
       }
     },
-    "AUDNZD": {
+    "NZDUSD": {
       "exness-std": {
-        "long": -0.8,
-        "short": -12.1,
+        "long": -4.5,
+        "short": 0,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      }
+    },
+    "GBPNZD": {
+      "exness-std": {
+        "long": -0.9,
+        "short": -16.4,
         "contractSize": 100000
       },
       "exness-sf": {
@@ -128,153 +86,9 @@
         "contractSize": 100000
       }
     },
-    "AUDCHF": {
-      "exness-std": {
-        "long": 0,
-        "short": -8.2,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "EURJPY": {
-      "exness-std": {
-        "long": 0,
-        "short": -8.7,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      },
-      "hf-premium": {
-        "long": -0.5,
-        "short": -15.0,
-        "contractSize": 100000
-      },
-      "hf-pro": {
-        "long": -0.5,
-        "short": -15.0,
-        "contractSize": 100000
-      },
-      "hf-zero": {
-        "long": -0.5,
-        "short": -15.0,
-        "contractSize": 100000
-      }
-    },
-    "NZDJPY": {
-      "exness-std": {
-        "long": 0,
-        "short": -7.2,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "EURCHF": {
-      "exness-std": {
-        "long": 0,
-        "short": -6.3,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      },
-      "hf-premium": {
-        "long": 0.0,
-        "short": -9.6,
-        "contractSize": 100000
-      },
-      "hf-pro": {
-        "long": 0.0,
-        "short": -9.6,
-        "contractSize": 100000
-      },
-      "hf-zero": {
-        "long": 0.0,
-        "short": -9.6,
-        "contractSize": 100000
-      }
-    },
-    "USDCAD": {
-      "exness-std": {
-        "long": 0,
-        "short": -7.7,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      },
-      "hf-premium": {
-        "long": 0.0,
-        "short": -8.7,
-        "contractSize": 100000
-      },
-      "hf-pro": {
-        "long": 0.0,
-        "short": -8.7,
-        "contractSize": 100000
-      },
-      "hf-zero": {
-        "long": 0.0,
-        "short": -8.7,
-        "contractSize": 100000
-      }
-    },
-    "GBPAUD": {
-      "exness-std": {
-        "long": -5.6,
-        "short": 0,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "EURGBP": {
-      "exness-std": {
-        "long": -5.2,
-        "short": 0,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      },
-      "hf-premium": {
-        "long": -6.9,
-        "short": 0.0,
-        "contractSize": 100000
-      },
-      "hf-pro": {
-        "long": -6.9,
-        "short": 0.0,
-        "contractSize": 100000
-      },
-      "hf-zero": {
-        "long": -6.9,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
     "AUDJPY": {
       "exness-std": {
-        "long": 0,
+        "long": -0.1,
         "short": -2.3,
         "contractSize": 100000
       },
@@ -284,100 +98,10 @@
         "contractSize": 100000
       }
     },
-    "GBPJPY": {
+    "AUDNZD": {
       "exness-std": {
-        "long": 0,
-        "short": -21.4,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      },
-      "hf-premium": {
-        "long": 0.0,
-        "short": -29.5,
-        "contractSize": 100000
-      },
-      "hf-pro": {
-        "long": 0.0,
-        "short": -29.5,
-        "contractSize": 100000
-      },
-      "hf-zero": {
-        "long": 0.0,
-        "short": -29.5,
-        "contractSize": 100000
-      }
-    },
-    "USDCHF": {
-      "exness-std": {
-        "long": 0,
-        "short": -9.3,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      },
-      "hf-premium": {
-        "long": 0.0,
+        "long": -0.8,
         "short": -12.1,
-        "contractSize": 100000
-      },
-      "hf-pro": {
-        "long": 0.0,
-        "short": -12.1,
-        "contractSize": 100000
-      },
-      "hf-zero": {
-        "long": 0.0,
-        "short": -12.1,
-        "contractSize": 100000
-      }
-    },
-    "SILVER": {
-      "exness-std": {
-        "long": -9.1,
-        "short": 0,
-        "contractSize": 5000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 5000
-      }
-    },
-    "AUDCAD": {
-      "exness-std": {
-        "long": 0,
-        "short": -8.6,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "NZDCAD": {
-      "exness-std": {
-        "long": -2.3,
-        "short": -1.8,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "NZDUSD": {
-      "exness-std": {
-        "long": -4.5,
-        "short": 0,
         "contractSize": 100000
       },
       "exness-sf": {
@@ -413,10 +137,337 @@
         "contractSize": 100000
       }
     },
-    "GBPNZD": {
+    "USDCAD": {
       "exness-std": {
-        "long": -0.9,
-        "short": -16.4,
+        "long": -0.1,
+        "short": -6.2,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": 0.0,
+        "short": -8.7,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": 0.0,
+        "short": -8.7,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": 0.0,
+        "short": -8.7,
+        "contractSize": 100000
+      }
+    },
+    "SILVER": {
+      "exness-std": {
+        "long": -9.1,
+        "short": 0,
+        "contractSize": 5000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 5000
+      }
+    },
+    "EURGBP": {
+      "exness-std": {
+        "long": -5.2,
+        "short": 0,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": -6.9,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": -6.9,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": -6.9,
+        "short": 0.0,
+        "contractSize": 100000
+      }
+    },
+    "EURAUD": {
+      "exness-std": {
+        "long": -14.1,
+        "short": 0,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      }
+    },
+    "GOLD": {
+      "exness-std": {
+        "long": -520,
+        "short": 0,
+        "contractSize": 100
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100
+      }
+    },
+    "EURCHF": {
+      "exness-std": {
+        "long": 0,
+        "short": -6.3,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": 0.0,
+        "short": -9.6,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": 0.0,
+        "short": -9.6,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": 0.0,
+        "short": -9.6,
+        "contractSize": 100000
+      }
+    },
+    "AUDUSD": {
+      "exness-std": {
+        "long": 0,
+        "short": -2.1,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": -1.4,
+        "short": -3.4,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": -1.4,
+        "short": -3.4,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": -1.4,
+        "short": -3.4,
+        "contractSize": 100000
+      }
+    },
+    "EURCAD": {
+      "exness-std": {
+        "long": -2.9,
+        "short": -1.3,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": -4.9,
+        "short": -3.6,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": -4.9,
+        "short": -3.6,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": -4.9,
+        "short": -3.6,
+        "contractSize": 100000
+      }
+    },
+    "USDJPY": {
+      "exness-std": {
+        "long": 0,
+        "short": -14.8,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": 0.0,
+        "short": -21.7,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": 0.0,
+        "short": -21.7,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": 0.0,
+        "short": -21.7,
+        "contractSize": 100000
+      }
+    },
+    "AUDCAD": {
+      "exness-std": {
+        "long": 0,
+        "short": -8.8,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      }
+    },
+    "NZDCAD": {
+      "exness-std": {
+        "long": -2.3,
+        "short": -1.8,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      }
+    },
+    "EURJPY": {
+      "exness-std": {
+        "long": 0,
+        "short": -8.7,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": -0.5,
+        "short": -15.0,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": -0.5,
+        "short": -15.0,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": -0.5,
+        "short": -15.0,
+        "contractSize": 100000
+      }
+    },
+    "CHFJPY": {
+      "exness-std": {
+        "long": -7.5,
+        "short": 0,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": -9.8,
+        "short": -1.4,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": -9.8,
+        "short": -1.4,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": -9.8,
+        "short": -1.4,
+        "contractSize": 100000
+      }
+    },
+    "AUDCHF": {
+      "exness-std": {
+        "long": 0,
+        "short": -8.2,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      }
+    },
+    "GBPAUD": {
+      "exness-std": {
+        "long": -5.6,
+        "short": 0,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      }
+    },
+    "CADCHF": {
+      "exness-std": {
+        "long": 0,
+        "short": -4.6,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": 0.0,
+        "short": -5.3,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": 0.0,
+        "short": -5.3,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": 0.0,
+        "short": -5.3,
+        "contractSize": 100000
+      }
+    },
+    "NZDCHF": {
+      "exness-std": {
+        "long": 0,
+        "short": -5.7,
         "contractSize": 100000
       },
       "exness-sf": {
@@ -452,87 +503,6 @@
         "contractSize": 100000
       }
     },
-    "EURCAD": {
-      "exness-std": {
-        "long": -2.9,
-        "short": -1.3,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      },
-      "hf-premium": {
-        "long": -4.9,
-        "short": -3.6,
-        "contractSize": 100000
-      },
-      "hf-pro": {
-        "long": -4.9,
-        "short": -3.6,
-        "contractSize": 100000
-      },
-      "hf-zero": {
-        "long": -4.9,
-        "short": -3.6,
-        "contractSize": 100000
-      }
-    },
-    "USDJPY": {
-      "exness-std": {
-        "long": 0,
-        "short": -14.9,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      },
-      "hf-premium": {
-        "long": 0.0,
-        "short": -21.7,
-        "contractSize": 100000
-      },
-      "hf-pro": {
-        "long": 0.0,
-        "short": -21.7,
-        "contractSize": 100000
-      },
-      "hf-zero": {
-        "long": 0.0,
-        "short": -21.7,
-        "contractSize": 100000
-      }
-    },
-    "CHFJPY": {
-      "exness-std": {
-        "long": -7.5,
-        "short": 0,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      },
-      "hf-premium": {
-        "long": -9.8,
-        "short": -1.4,
-        "contractSize": 100000
-      },
-      "hf-pro": {
-        "long": -9.8,
-        "short": -1.4,
-        "contractSize": 100000
-      },
-      "hf-zero": {
-        "long": -9.8,
-        "short": -1.4,
-        "contractSize": 100000
-      }
-    },
     "EURNZD": {
       "exness-std": {
         "long": -5.9,
@@ -545,46 +515,10 @@
         "contractSize": 100000
       }
     },
-    "NZDCHF": {
+    "USDCHF": {
       "exness-std": {
         "long": 0,
-        "short": -4.4,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "EURAUD": {
-      "exness-std": {
-        "long": -12.8,
-        "short": 0,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "GOLD": {
-      "exness-std": {
-        "long": -520,
-        "short": 0,
-        "contractSize": 100
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100
-      }
-    },
-    "AUDUSD": {
-      "exness-std": {
-        "long": 0,
-        "short": -2.1,
+        "short": -9.3,
         "contractSize": 100000
       },
       "exness-sf": {
@@ -593,18 +527,84 @@
         "contractSize": 100000
       },
       "hf-premium": {
-        "long": -1.4,
-        "short": -3.4,
+        "long": 0.0,
+        "short": -12.1,
         "contractSize": 100000
       },
       "hf-pro": {
-        "long": -1.4,
-        "short": -3.4,
+        "long": 0.0,
+        "short": -12.1,
         "contractSize": 100000
       },
       "hf-zero": {
-        "long": -1.4,
-        "short": -3.4,
+        "long": 0.0,
+        "short": -12.1,
+        "contractSize": 100000
+      }
+    },
+    "GBPUSD": {
+      "exness-std": {
+        "long": -1.1,
+        "short": -1.6,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": -3.1,
+        "short": -3.7,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": -3.1,
+        "short": -3.7,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": -3.1,
+        "short": -3.7,
+        "contractSize": 100000
+      }
+    },
+    "GBPJPY": {
+      "exness-std": {
+        "long": 0,
+        "short": -21.4,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": 0.0,
+        "short": -29.5,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": 0.0,
+        "short": -29.5,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": 0.0,
+        "short": -29.5,
+        "contractSize": 100000
+      }
+    },
+    "NZDJPY": {
+      "exness-std": {
+        "long": 0,
+        "short": -7.2,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
         "contractSize": 100000
       }
     }
