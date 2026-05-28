@@ -500,6 +500,46 @@ def run():
     print(f"\n✓ Done — {len(merged)} symbols, {len(brokers)} brokers, {total} entries")
     print(f"  Brokers: {sorted(brokers)}")
 
+    if len(brokers) < 5:
+        send_alert_email(brokers)
+
+
+def send_alert_email(brokers):
+    import os
+    api_key = os.environ.get("RESEND_API_KEY")
+    if not api_key:
+        print("  [alert] RESEND_API_KEY not set, skipping email alert")
+        return
+
+    broker_list = ", ".join(sorted(brokers)) if brokers else "none"
+    body = (
+        f"SwapVenator scraper alert — {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}\n\n"
+        f"Only {len(brokers)} broker(s) returned data: {broker_list}\n\n"
+        f"Expected at least 5. CashbackForex may be blocking the scraper again.\n"
+        f"Check the GitHub Actions logs for details."
+    )
+    payload = json.dumps({
+        "from": "SwapVenator Alert <alert@swapvenator.io>",
+        "to": ["info@swapvenator.io"],
+        "subject": f"[SwapVenator] Scraper alert — only {len(brokers)} broker(s) with data",
+        "text": body,
+    }).encode()
+
+    try:
+        req = urllib.request.Request(
+            "https://api.resend.com/emails",
+            data=payload,
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+            },
+            method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            print(f"  [alert] Email sent (status {resp.status})")
+    except Exception as e:
+        print(f"  [alert] Failed to send email: {e}")
+
 
 if __name__ == "__main__":
     run()
