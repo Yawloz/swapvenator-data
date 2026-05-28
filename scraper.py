@@ -18,12 +18,6 @@ import time
 import urllib.request
 from datetime import datetime, timezone
 
-try:
-    from curl_cffi import requests as cffi_requests
-    _USE_CURL_CFFI = True
-except ImportError:
-    _USE_CURL_CFFI = False
-
 # ─────────────────────────────────────────────────────
 # SYMBOL CONFIG
 # ─────────────────────────────────────────────────────
@@ -128,35 +122,18 @@ CBF_BROKERS = {
 # ─────────────────────────────────────────────────────
 # CBF FETCH
 # ─────────────────────────────────────────────────────
-def fetch_cbf_page(cbf_id, group, page=1, retries=3):
+def fetch_cbf_page(pw_page, cbf_id, group, page=1, retries=3):
     import urllib.parse
     group_encoded = urllib.parse.quote(group, safe='')
     url = (f"{CBF_BASE}/{cbf_id}"
            f"?currentPage={page}&countPerPage=100&search=&group={group_encoded}")
-    headers = {
-        "Accept": "application/json, text/plain, */*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Origin": "https://fxverify.com",
-        "Referer": "https://fxverify.com/",
-        "Cache-Control": "no-cache",
-        "Pragma": "no-cache",
-    }
     for attempt in range(retries):
         try:
-            if _USE_CURL_CFFI:
-                resp = cffi_requests.get(url, headers=headers, impersonate="chrome110", timeout=15)
-                resp.raise_for_status()
-                data = resp.json()
-            else:
-                req = urllib.request.Request(url, headers={
-                    **headers,
-                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-                    "Sec-Fetch-Dest": "empty",
-                    "Sec-Fetch-Mode": "cors",
-                    "Sec-Fetch-Site": "cross-site",
-                })
-                with urllib.request.urlopen(req, timeout=15) as r:
-                    data = json.loads(r.read().decode())
+            resp = pw_page.goto(url, wait_until="networkidle", timeout=30000)
+            if resp and resp.status == 403:
+                raise Exception(f"HTTP 403 after Cloudflare challenge")
+            content = pw_page.inner_text("body")
+            data = json.loads(content)
             return data.get("swapRates", {}).get("swapRates", [])
         except Exception as e:
             print(f"    CBF error [{cbf_id}] group={group} page={page} attempt {attempt+1}: {e}")
@@ -176,78 +153,93 @@ def run_cbf():
     print("── CashbackForex ──")
     output = {}
 
-    for cbf_id, config in CBF_BROKERS.items():
-        broker_key = config["key"]
-        print(f"  {broker_key} (CBF ID: {cbf_id})")
-        broker_data = {}
-        pages_config = config.get("pages", {})
-        strip_suffixes = config.get("strip_suffix", [])
-        cs_override = config.get("contractSize_override", {})
-        exclude_syms = config.get("exclude_symbols", set())
+    from playwright.sync_api import sync_playwright
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"]
+        )
+        pw_page = browser.new_page(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+        )
+        # Warm up: visit the referrer origin so Cloudflare sees a prior page visit
+        try:
+            pw_page.goto("https://www.cashbackforex.com/", wait_until="domcontentloaded", timeout=20000)
+            time.sleep(2)
+        except Exception:
+            pass
 
-        for group in config["groups"]:
-            num_pages = pages_config.get(group, 1)
-            for page in range(1, num_pages + 1):
-                rows = fetch_cbf_page(cbf_id, group, page)
-                for item in rows:
-                    raw_name = item.get("name", "")
+        for cbf_id, config in CBF_BROKERS.items():
+            broker_key = config["key"]
+            print(f"  {broker_key} (CBF ID: {cbf_id})")
+            broker_data = {}
+            pages_config = config.get("pages", {})
+            strip_suffixes = config.get("strip_suffix", [])
+            cs_override = config.get("contractSize_override", {})
+            exclude_syms = config.get("exclude_symbols", set())
 
-                    if strip_suffixes:
-                        raw_name = strip_symbol_suffix(raw_name, strip_suffixes)
+            for group in config["groups"]:
+                num_pages = pages_config.get(group, 1)
+                for page in range(1, num_pages + 1):
+                    rows = fetch_cbf_page(pw_page, cbf_id, group, page)
+                    for item in rows:
+                        raw_name = item.get("name", "")
 
-                    swap_type = item.get("swapType", "")
+                        if strip_suffixes:
+                            raw_name = strip_symbol_suffix(raw_name, strip_suffixes)
 
-                    canon = CBF_SYMBOL_MAP.get(raw_name, raw_name)
-                    if canon is None or canon not in OUR_SYMBOLS_SET:
-                        continue
-                    if canon in exclude_syms:
-                        continue
-                    if canon in broker_data:
-                        continue  # first occurrence wins
+                        swap_type = item.get("swapType", "")
 
-                    lv = item.get("swapLong")
-                    sv = item.get("swapShort")
-                    cs = cs_override.get(canon) or item.get("contractSize")
+                        canon = CBF_SYMBOL_MAP.get(raw_name, raw_name)
+                        if canon is None or canon not in OUR_SYMBOLS_SET:
+                            continue
+                        if canon in exclude_syms:
+                            continue
+                        if canon in broker_data:
+                            continue  # first occurrence wins
 
-                    # Normalize numeric swapType strings (IronFX uses "0"/"1")
-                    if swap_type == "0":
-                        swap_type = "InPoints"
-                    elif swap_type == "1":
-                        swap_type = "InMoney"
+                        lv = item.get("swapLong")
+                        sv = item.get("swapShort")
+                        cs = cs_override.get(canon) or item.get("contractSize")
 
-                    if swap_type == "InPoints":
-                        long_val  = round(float(lv), 4) if lv is not None else None
-                        short_val = round(float(sv), 4) if sv is not None else None
-                    elif swap_type == "InPips":
-                        # 1 pip = 10 points for most pairs, JPY pairs same
-                        pip_to_pts = 10
-                        long_val  = round(float(lv) * pip_to_pts, 4) if lv is not None else None
-                        short_val = round(float(sv) * pip_to_pts, 4) if sv is not None else None
-                    elif swap_type == "InMoney":
-                        # Already in USD per lot — store as-is, frontend skips swapToUSD
-                        long_val  = round(float(lv), 4) if lv is not None else None
-                        short_val = round(float(sv), 4) if sv is not None else None
-                    else:
-                        # Unknown type — skip
-                        print(f"      Unknown swapType={swap_type} for {raw_name}, skipping")
-                        continue
+                        # Normalize numeric swapType strings (IronFX uses "0"/"1")
+                        if swap_type == "0":
+                            swap_type = "InPoints"
+                        elif swap_type == "1":
+                            swap_type = "InMoney"
 
-                    broker_data[canon] = {
-                        "long":         long_val,
-                        "short":        short_val,
-                        "contractSize": int(cs) if cs is not None else None,
-                        "swapType":     swap_type,
-                    }
-                time.sleep(0.8)
+                        if swap_type == "InPoints":
+                            long_val  = round(float(lv), 4) if lv is not None else None
+                            short_val = round(float(sv), 4) if sv is not None else None
+                        elif swap_type == "InPips":
+                            pip_to_pts = 10
+                            long_val  = round(float(lv) * pip_to_pts, 4) if lv is not None else None
+                            short_val = round(float(sv) * pip_to_pts, 4) if sv is not None else None
+                        elif swap_type == "InMoney":
+                            long_val  = round(float(lv), 4) if lv is not None else None
+                            short_val = round(float(sv), 4) if sv is not None else None
+                        else:
+                            print(f"      Unknown swapType={swap_type} for {raw_name}, skipping")
+                            continue
 
-        # Log swapTypes found for debugging
-        swap_types_found = {}
-        for sym_data in broker_data.values():
-            t = sym_data.get("swapType", "unknown")
-            swap_types_found[t] = swap_types_found.get(t, 0) + 1
-        print(f"    Got {len(broker_data)} symbols | swapTypes: {swap_types_found}")
-        for symbol, rates in broker_data.items():
-            output.setdefault(symbol, {})[broker_key] = rates
+                        broker_data[canon] = {
+                            "long":         long_val,
+                            "short":        short_val,
+                            "contractSize": int(cs) if cs is not None else None,
+                            "swapType":     swap_type,
+                        }
+                    time.sleep(0.8)
+
+            # Log swapTypes found for debugging
+            swap_types_found = {}
+            for sym_data in broker_data.values():
+                t = sym_data.get("swapType", "unknown")
+                swap_types_found[t] = swap_types_found.get(t, 0) + 1
+            print(f"    Got {len(broker_data)} symbols | swapTypes: {swap_types_found}")
+            for symbol, rates in broker_data.items():
+                output.setdefault(symbol, {})[broker_key] = rates
+
+        browser.close()
 
     brokers = set(b for sym in output.values() for b in sym.keys())
     print(f"  Done. {len(output)} symbols, {len(brokers)} brokers: {sorted(brokers)}")
