@@ -24,9 +24,10 @@ jobs:
           playwright install-deps chromium
 
       - name: Run scraper
-        run: python scraper.py
+        run: python -u scraper.py
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          PYTHONUNBUFFERED: "1"
 
       - name: Commit and push swaps.json
         run: |
