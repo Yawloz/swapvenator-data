@@ -129,7 +129,7 @@ def fetch_cbf_page(pw_page, cbf_id, group, page=1, retries=3):
            f"?currentPage={page}&countPerPage=100&search=&group={group_encoded}")
     for attempt in range(retries):
         try:
-            resp = pw_page.goto(url, wait_until="networkidle", timeout=30000)
+            resp = pw_page.goto(url, wait_until="domcontentloaded", timeout=30000)
             if resp and resp.status == 403:
                 raise Exception(f"HTTP 403 after Cloudflare challenge")
             content = pw_page.inner_text("body")
@@ -165,7 +165,7 @@ def run_cbf():
         # Warm up: visit the referrer origin so Cloudflare sees a prior page visit
         try:
             pw_page.goto("https://www.cashbackforex.com/", wait_until="domcontentloaded", timeout=20000)
-            time.sleep(2)
+            time.sleep(1)
         except Exception:
             pass
 
@@ -228,7 +228,7 @@ def run_cbf():
                             "contractSize": int(cs) if cs is not None else None,
                             "swapType":     swap_type,
                         }
-                    time.sleep(0.8)
+                    time.sleep(0.3)
 
             # Log swapTypes found for debugging
             swap_types_found = {}
