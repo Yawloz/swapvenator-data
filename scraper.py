@@ -456,6 +456,10 @@ def run():
     exn_data = run_exness()
     hfm_data = run_hfmarkets()
 
+    # Count how many CBF brokers returned 0 data
+    cbf_brokers_with_data = set(b for sym in cbf_data.values() for b in sym.keys())
+    cbf_failed = len(CBF_BROKERS) - len(cbf_brokers_with_data)
+
     # Exness SF = Exness Swap-Free account — all swaps are 0 by definition
     # Mirrors exness-std symbols/contractSizes but with long=0, short=0
     exn_sf_data = {}
@@ -492,28 +496,29 @@ def run():
     print(f"\n✓ Done — {len(merged)} symbols, {len(brokers)} brokers, {total} entries")
     print(f"  Brokers: {sorted(brokers)}")
 
-    if len(brokers) < 5:
-        send_alert_email(brokers)
+    if cbf_failed > 4:
+        send_alert_email(cbf_failed, cbf_brokers_with_data)
 
 
-def send_alert_email(brokers):
+def send_alert_email(cbf_failed, cbf_brokers_with_data):
     import os
     api_key = os.environ.get("RESEND_API_KEY")
     if not api_key:
         print("  [alert] RESEND_API_KEY not set, skipping email alert")
         return
 
-    broker_list = ", ".join(sorted(brokers)) if brokers else "none"
+    working = ", ".join(sorted(cbf_brokers_with_data)) if cbf_brokers_with_data else "none"
     body = (
         f"SwapVenator scraper alert — {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}\n\n"
-        f"Only {len(brokers)} broker(s) returned data: {broker_list}\n\n"
-        f"Expected at least 5. CashbackForex may be blocking the scraper again.\n"
+        f"{cbf_failed} out of {9} CBF brokers returned no data.\n"
+        f"CBF brokers with data: {working}\n\n"
+        f"CashbackForex API may be down or blocking the scraper.\n"
         f"Check the GitHub Actions logs for details."
     )
     payload = json.dumps({
         "from": "SwapVenator Alert <alert@swapvenator.io>",
         "to": ["info@swapvenator.io"],
-        "subject": f"[SwapVenator] Scraper alert — only {len(brokers)} broker(s) with data",
+        "subject": f"[SwapVenator] Scraper alert — {cbf_failed}/9 CBF brokers failed",
         "text": body,
     }).encode()
 
@@ -529,8 +534,9 @@ def send_alert_email(brokers):
         )
         with urllib.request.urlopen(req, timeout=10) as resp:
             print(f"  [alert] Email sent (status {resp.status})")
-    except Exception as e:
-        print(f"  [alert] Failed to send email: {e}")
+    except urllib.error.HTTPError as e:
+        body_bytes = e.read()
+        print(f"  [alert] Failed to send email: {e} — {body_bytes.decode()}")
 
 
 if __name__ == "__main__":
