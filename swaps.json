@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05 11:24 UTC",
+  "updated_at": "2026-06-05 14:22 UTC",
   "sources": [
     "blackbull",
     "eightcap",
@@ -7,6 +7,9 @@
     "exness-std",
     "fpmarkets",
     "fusionmarkets",
+    "hf-premium",
+    "hf-pro",
+    "hf-zero",
     "icmarkets",
     "ironfx",
     "tickmill",
@@ -14,1000 +17,10 @@
     "xm"
   ],
   "swaps": {
-    "GBPJPY": {
-      "icmarkets": {
-        "long": 14.072,
-        "short": -22.208,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": 5.86,
-        "short": -23.15,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": 8.25,
-        "short": -23.39,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": 12.29,
-        "short": -23.81,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": 3.09,
-        "short": -40.51,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": 12.34,
-        "short": -24.84,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": 9.77,
-        "short": -26.16,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": 10.29,
-        "short": -26.63,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": 10.5,
-        "short": -37.85,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": 0,
-        "short": -20.6,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "NZDCHF": {
-      "icmarkets": {
-        "long": 1.784,
-        "short": -4.596,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": 1.72,
-        "short": -5.62,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": 1.22,
-        "short": -4.64,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": 2.1,
-        "short": -5.03,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": 1.48,
-        "short": -5.52,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": 2.63,
-        "short": -5.95,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": 1.19,
-        "short": -5.13,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": 1.16,
-        "short": -5.01,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": 0.46,
-        "short": -6.34,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": 0,
-        "short": -4.5,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "EURNZD": {
-      "icmarkets": {
-        "long": -4.819,
-        "short": -1.409,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": -6.99,
-        "short": -0.85,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": -7.86,
-        "short": -3.15,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": -3.89,
-        "short": -1.47,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -11.56,
-        "short": -6.26,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": -11.71,
-        "short": 3.53,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": -4.53,
-        "short": -1.49,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": -6.6,
-        "short": -2.76,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": -7.53,
-        "short": -1.93,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": -4.9,
-        "short": -1.0,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "CHFJPY": {
-      "icmarkets": {
-        "long": -7.076,
-        "short": 2.307,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": -7.15,
-        "short": 0.68,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": -10.76,
-        "short": -1.36,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": -10.87,
-        "short": -1.1,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -15.52,
-        "short": -7.92,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": -5.29,
-        "short": 0.43,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": -8.08,
-        "short": 1.61,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": -11.76,
-        "short": 0.92,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": -8.98,
-        "short": 0.57,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": -7.5,
-        "short": 0,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "GBPCHF": {
-      "icmarkets": {
-        "long": 6.191,
-        "short": -16.622,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": 5.0,
-        "short": -19.18,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": 4.53,
-        "short": -14.66,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": 7.69,
-        "short": -13.34,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": 5.6,
-        "short": -17.5,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": 5.51,
-        "short": -15.77,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": 4.3,
-        "short": -18.7,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": 5.8,
-        "short": -15.51,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": 3.02,
-        "short": -19.97,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": 0,
-        "short": -13.2,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "GOLD": {
-      "icmarkets": {
-        "long": -53.662,
-        "short": 46.068,
-        "contractSize": 100,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": -83.46,
-        "short": 25.5,
-        "contractSize": 100,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": -69.98,
-        "short": 29.5,
-        "contractSize": 100,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": -59.71,
-        "short": 46.69,
-        "contractSize": 100,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -99.43,
-        "short": 11.47,
-        "contractSize": 100,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": -71.5,
-        "short": 32.5,
-        "contractSize": 100,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": -65.59,
-        "short": 31.16,
-        "contractSize": 100,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": -81.42,
-        "short": 33.91,
-        "contractSize": 100,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": -58.6,
-        "short": 18.2,
-        "contractSize": 100,
-        "swapType": "InMoney"
-      },
-      "exness-std": {
-        "long": -542.2,
-        "short": 0,
-        "contractSize": 100
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100
-      }
-    },
-    "EURCHF": {
-      "icmarkets": {
-        "long": 2.636,
-        "short": -8.338,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": 2.04,
-        "short": -9.69,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": 1.85,
-        "short": -8.24,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": 3.21,
-        "short": -8.21,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": 0.49,
-        "short": -10.71,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": 2.14,
-        "short": -7.49,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": 1.86,
-        "short": -9.32,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": 2.25,
-        "short": -8.43,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": -0.15,
-        "short": -10.98,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": 0,
-        "short": -7.0,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "USDCHF": {
-      "icmarkets": {
-        "long": 5.814,
-        "short": -10.852,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": 4.91,
-        "short": -12.32,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": 4.29,
-        "short": -10.67,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": 6.6,
-        "short": -9.8,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": 4.05,
-        "short": -12.65,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": 5.97,
-        "short": -11.6,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": 4.36,
-        "short": -11.04,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": 4.17,
-        "short": -11.07,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": 1.01,
-        "short": -14.87,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": 0,
-        "short": -9.2,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "EURCAD": {
-      "icmarkets": {
-        "long": -3.474,
-        "short": -1.74,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": -3.74,
-        "short": -2.87,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": -4.8,
-        "short": -2.9,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": -4.0,
-        "short": -2.32,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -7.32,
-        "short": -5.92,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": -4.91,
-        "short": 0.26,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": -3.34,
-        "short": -1.66,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": -4.35,
-        "short": -2.32,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": -4.95,
-        "short": -2.95,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": -2.5,
-        "short": -1.8,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "GBPCAD": {
-      "icmarkets": {
-        "long": 3.081,
-        "short": -12.625,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": 2.83,
-        "short": -15.44,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": 3.3,
-        "short": -12.4,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": 5.3,
-        "short": -10.82,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": 1.33,
-        "short": -16.47,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": 3.34,
-        "short": -11.94,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": 3.04,
-        "short": -12.68,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": 4.06,
-        "short": -13.23,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": 1.09,
-        "short": -15.98,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": 0,
-        "short": -10.3,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "SILVER": {
-      "icmarkets": {
-        "long": -9.006,
-        "short": 7.714,
-        "contractSize": 1000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": -42.31,
-        "short": -1.45,
-        "contractSize": 5000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": -18.05,
-        "short": 3.3,
-        "contractSize": 5000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": -11.39,
-        "short": 5.49,
-        "contractSize": 5000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -29.03,
-        "short": 3.24,
-        "contractSize": 5000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": -16.54,
-        "short": 2.64,
-        "contractSize": 5000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": -12.15,
-        "short": 0.1,
-        "contractSize": 5000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": -17.79,
-        "short": 3.42,
-        "contractSize": 5000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": -85.0,
-        "short": 12.75,
-        "contractSize": 5000,
-        "swapType": "InMoney"
-      },
-      "exness-std": {
-        "long": -9.0,
-        "short": 0,
-        "contractSize": 5000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 5000
-      }
-    },
-    "GBPUSD": {
-      "icmarkets": {
-        "long": -3.391,
-        "short": -3.894,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": -0.7,
-        "short": -1.47,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": -2.99,
-        "short": -3.49,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": -1.3,
-        "short": -1.8,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -3.49,
-        "short": -4.19,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": -2.63,
-        "short": -1.53,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": -1.71,
-        "short": -2.19,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": -1.98,
-        "short": -3.13,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": -3.43,
-        "short": -3.85,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": -1.1,
-        "short": -1.6,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "AUDUSD": {
-      "icmarkets": {
-        "long": -1.798,
-        "short": -4.538,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": 0.64,
-        "short": -2.19,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": -0.3,
-        "short": -3.1,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": 0.4,
-        "short": -2.0,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -1.66,
-        "short": -3.46,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": -1.83,
-        "short": -0.51,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": 0.1,
-        "short": -2.52,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": 0.13,
-        "short": -2.78,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": -3.59,
-        "short": -5.78,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": 0,
-        "short": -2.2,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "CADCHF": {
-      "icmarkets": {
-        "long": 2.103,
-        "short": -5.323,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": 1.6,
-        "short": -5.97,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": 0.79,
-        "short": -5.45,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": 2.85,
-        "short": -4.52,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": 1.31,
-        "short": -6.05,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": 2.05,
-        "short": -5.85,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": 1.59,
-        "short": -5.53,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": 0.91,
-        "short": -5.56,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": 0.38,
-        "short": -6.85,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": 0,
-        "short": -4.5,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "CADJPY": {
-      "icmarkets": {
-        "long": 3.331,
-        "short": -6.336,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": 1.64,
-        "short": -6.42,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": 1.21,
-        "short": -7.73,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": 3.23,
-        "short": -6.41,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -1.29,
-        "short": -11.69,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": 3.32,
-        "short": -8.17,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": 2.37,
-        "short": -7.42,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": 2.09,
-        "short": -8.66,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": 1.01,
-        "short": -8.98,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": -1.0,
-        "short": -7.9,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
     "NZDUSD": {
       "icmarkets": {
-        "long": -3.955,
-        "short": 0.442,
+        "long": -3.918,
+        "short": 0.362,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
@@ -1025,7 +38,7 @@
       },
       "tickmill": {
         "long": -3.2,
-        "short": 1.25,
+        "short": 1.28,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
@@ -1048,8 +61,8 @@
         "swapType": "InPoints"
       },
       "eightcap": {
-        "long": -4.08,
-        "short": 0.98,
+        "long": -4.11,
+        "short": 1.0,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
@@ -1070,824 +83,10 @@
         "contractSize": 100000
       }
     },
-    "EURJPY": {
-      "icmarkets": {
-        "long": 4.601,
-        "short": -9.045,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": 1.46,
-        "short": -9.63,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": 2.4,
-        "short": -11.4,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": 4.56,
-        "short": -9.56,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -5.02,
-        "short": -23.02,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": 4.39,
-        "short": -10.42,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": 3.29,
-        "short": -10.61,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": 2.67,
-        "short": -12.65,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": 2.05,
-        "short": -12.96,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": 0,
-        "short": -8.8,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "AUDNZD": {
-      "icmarkets": {
-        "long": 4.819,
-        "short": -8.771,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": 3.42,
-        "short": -9.17,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": 3.83,
-        "short": -9.87,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": 5.04,
-        "short": -8.82,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -0.43,
-        "short": -13.03,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": -0.51,
-        "short": -3.34,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": 4.6,
-        "short": -9.18,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": 3.53,
-        "short": -11.92,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": 1.35,
-        "short": -9.68,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": 0,
-        "short": -10.8,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "GBPNZD": {
-      "icmarkets": {
-        "long": 3.314,
-        "short": -14.493,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": 1.18,
-        "short": -15.62,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": 3.21,
-        "short": -14.59,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": 6.27,
-        "short": -13.02,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -1.87,
-        "short": -19.87,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": 0.85,
-        "short": -9.64,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": 2.59,
-        "short": -14.31,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": 3.97,
-        "short": -16.9,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": 0.18,
-        "short": -14.95,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": 0,
-        "short": -15.9,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "USDCAD": {
-      "icmarkets": {
-        "long": 2.272,
-        "short": -8.608,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": 2.45,
-        "short": -7.77,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": 1.75,
-        "short": -8.77,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": 4.3,
-        "short": -7.4,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": 1.55,
-        "short": -9.15,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": 3.49,
-        "short": -9.1,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": 3.21,
-        "short": -8.07,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": 2.04,
-        "short": -10.68,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": 0.58,
-        "short": -10.95,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": 0,
-        "short": -7.3,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "AUDJPY": {
-      "icmarkets": {
-        "long": 10.211,
-        "short": -13.069,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": 2.73,
-        "short": -13.29,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": 6.46,
-        "short": -14.41,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": 9.6,
-        "short": -13.44,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": 5.73,
-        "short": -20.77,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": 5.1,
-        "short": -10.9,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": 6.29,
-        "short": -14.74,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": 6.33,
-        "short": -18.54,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": 5.02,
-        "short": -14.98,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": 0,
-        "short": -2.3,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "NATGAS": {
-      "icmarkets": {
-        "long": -52.613,
-        "short": 38.502,
-        "contractSize": 10000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": -6.3,
-        "short": 3.62,
-        "contractSize": 10000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": -3.29,
-        "short": 0.01,
-        "contractSize": 10000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": -0.79,
-        "short": 0.02,
-        "contractSize": 10000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": -55.2,
-        "short": 9.35,
-        "contractSize": 10000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": -25.0,
-        "short": 5.0,
-        "contractSize": 10000,
-        "swapType": "InMoney"
-      }
-    },
-    "AUDCHF": {
-      "icmarkets": {
-        "long": 5.557,
-        "short": -8.598,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": 4.76,
-        "short": -9.65,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": 4.22,
-        "short": -8.83,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": 5.31,
-        "short": -9.04,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": 3.93,
-        "short": -9.57,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": 3.31,
-        "short": -7.1,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": 3.82,
-        "short": -9.32,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": 3.65,
-        "short": -9.35,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": 2.15,
-        "short": -9.97,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": 0,
-        "short": -9.1,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "GBPAUD": {
-      "icmarkets": {
-        "long": -8.317,
-        "short": -1.787,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": -9.57,
-        "short": -3.11,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": -7.84,
-        "short": -1.24,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": -7.13,
-        "short": -0.51,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -11.45,
-        "short": -6.05,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": -1.61,
-        "short": -5.23,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": -7.84,
-        "short": -1.75,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": -7.18,
-        "short": -0.01,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": -9.94,
-        "short": -3.98,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": -5.8,
-        "short": 0,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "NZDCAD": {
-      "icmarkets": {
-        "long": -1.24,
-        "short": -1.787,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": -0.97,
-        "short": -3.01,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": -1.73,
-        "short": -2.33,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": -0.95,
-        "short": -1.37,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -3.11,
-        "short": -4.11,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": 0.03,
-        "short": -3.55,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": -1.31,
-        "short": -1.71,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": -3.73,
-        "short": -2.21,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": -2.55,
-        "short": -3.98,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": -1.4,
-        "short": -1.7,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "EURGBP": {
-      "icmarkets": {
-        "long": -6.672,
-        "short": 1.568,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": -7.88,
-        "short": 1.17,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": -6.24,
-        "short": 2.06,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": -5.36,
-        "short": 2.45,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -6.67,
-        "short": 1.63,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": -6.95,
-        "short": 3.19,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": -6.91,
-        "short": 1.7,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": -6.62,
-        "short": 2.33,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": -8.88,
-        "short": 0.43,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": -5.0,
-        "short": 0,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "EURAUD": {
-      "icmarkets": {
-        "long": -13.326,
-        "short": 7.781,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": -15.03,
-        "short": 6.57,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": -14.43,
-        "short": 6.67,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": -12.6,
-        "short": 7.89,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -17.48,
-        "short": 2.82,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": -12.18,
-        "short": 5.47,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": -13.24,
-        "short": 6.79,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": -15.73,
-        "short": 6.5,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": -14.97,
-        "short": 2.52,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": -13.7,
-        "short": 0,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
-    "UKOIL": {
-      "icmarkets": {
-        "long": 7.915,
-        "short": -11.446,
-        "contractSize": 100,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": 40.2504,
-        "short": -122.6492,
-        "contractSize": 1000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": 30.92,
-        "short": -51.2,
-        "contractSize": 1,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": 9.77,
-        "short": -12.37,
-        "contractSize": 100,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": 9.2,
-        "short": -39.3,
-        "contractSize": 1000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": 61.11,
-        "short": -118.8,
-        "contractSize": 1000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": 77.52,
-        "short": -113.51,
-        "contractSize": 100,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": 10.05,
-        "short": -110.0,
-        "contractSize": 1000,
-        "swapType": "InMoney"
-      }
-    },
-    "USDJPY": {
-      "icmarkets": {
-        "long": 10.034,
-        "short": -16.346,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "vantage": {
-        "long": 7.6,
-        "short": -17.66,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "blackbull": {
-        "long": 6.68,
-        "short": -17.27,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "tickmill": {
-        "long": 11.5,
-        "short": -15.1,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": 2.11,
-        "short": -29.59,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fpmarkets": {
-        "long": 9.54,
-        "short": -18.97,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "fusionmarkets": {
-        "long": 6.76,
-        "short": -18.78,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "eightcap": {
-        "long": 6.7,
-        "short": -19.71,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "ironfx": {
-        "long": 6.76,
-        "short": -19.95,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "exness-std": {
-        "long": 0,
-        "short": -14.8,
-        "contractSize": 100000
-      },
-      "exness-sf": {
-        "long": 0.0,
-        "short": 0.0,
-        "contractSize": 100000
-      }
-    },
     "EURUSD": {
       "icmarkets": {
-        "long": -8.217,
-        "short": 2.403,
+        "long": -8.194,
+        "short": 2.376,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
@@ -1904,7 +103,7 @@
         "swapType": "InPoints"
       },
       "tickmill": {
-        "long": -6.7,
+        "long": -6.6,
         "short": 4.0,
         "contractSize": 100000,
         "swapType": "InPoints"
@@ -1928,8 +127,8 @@
         "swapType": "InPoints"
       },
       "eightcap": {
-        "long": -8.02,
-        "short": 3.25,
+        "long": -7.91,
+        "short": 3.16,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
@@ -1948,66 +147,81 @@
         "long": 0.0,
         "short": 0.0,
         "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": -8.3,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": -8.3,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": -8.3,
+        "short": 0.0,
+        "contractSize": 100000
       }
     },
-    "NZDJPY": {
+    "EURAUD": {
       "icmarkets": {
-        "long": 2.936,
-        "short": -5.59,
+        "long": -13.421,
+        "short": 7.839,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
       "vantage": {
-        "long": 0.8,
-        "short": -6.43,
+        "long": -15.03,
+        "short": 6.57,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
       "blackbull": {
-        "long": 0.68,
-        "short": -6.73,
+        "long": -14.43,
+        "short": 6.67,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
       "tickmill": {
-        "long": 2.76,
-        "short": -5.57,
+        "long": -12.84,
+        "short": 8.17,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
       "xm": {
-        "long": -1.51,
-        "short": -11.91,
+        "long": -17.48,
+        "short": 2.82,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
       "fpmarkets": {
-        "long": 3.82,
-        "short": -9.56,
+        "long": -12.18,
+        "short": 5.47,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
       "fusionmarkets": {
-        "long": 1.74,
-        "short": -6.98,
+        "long": -13.24,
+        "short": 6.79,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
       "eightcap": {
-        "long": 1.27,
-        "short": -7.33,
+        "long": -15.75,
+        "short": 6.47,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
       "ironfx": {
-        "long": 1.01,
-        "short": -9.94,
+        "long": -14.97,
+        "short": 2.52,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
       "exness-std": {
-        "long": 0,
-        "short": -5.8,
+        "long": -13.7,
+        "short": 0,
         "contractSize": 100000
       },
       "exness-sf": {
@@ -2016,10 +230,288 @@
         "contractSize": 100000
       }
     },
+    "AUDUSD": {
+      "icmarkets": {
+        "long": -1.748,
+        "short": -4.598,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": 0.64,
+        "short": -2.19,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": -0.3,
+        "short": -3.1,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": 0.5,
+        "short": -2.1,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": -1.66,
+        "short": -3.46,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": -1.83,
+        "short": -0.51,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": 0.1,
+        "short": -2.52,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": 0.15,
+        "short": -2.81,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": -3.59,
+        "short": -5.78,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": 0,
+        "short": -2.2,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": -1.4,
+        "short": -3.4,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": -1.4,
+        "short": -3.4,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": -1.4,
+        "short": -3.4,
+        "contractSize": 100000
+      }
+    },
+    "NZDCHF": {
+      "icmarkets": {
+        "long": 1.714,
+        "short": -4.516,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": 1.72,
+        "short": -5.62,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": 1.22,
+        "short": -4.64,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": 2.0,
+        "short": -4.61,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": 1.48,
+        "short": -5.52,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": 2.63,
+        "short": -5.95,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": 1.08,
+        "short": -4.93,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": 1.1,
+        "short": -4.83,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": 0.46,
+        "short": -6.34,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": 0,
+        "short": -4.5,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      }
+    },
+    "USOIL": {
+      "icmarkets": {
+        "long": 10.578,
+        "short": -14.701,
+        "contractSize": 100,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": 27.6881,
+        "short": -154.4664,
+        "contractSize": 1000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": 40.81,
+        "short": -61.59,
+        "contractSize": 1,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": 12.8,
+        "short": -16.16,
+        "contractSize": 100,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": 37.1,
+        "short": -153.9,
+        "contractSize": 1000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": 85.9,
+        "short": -143.22,
+        "contractSize": 1000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": 77.65,
+        "short": -136.54,
+        "contractSize": 100,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": 11.18,
+        "short": -115.0,
+        "contractSize": 1000,
+        "swapType": "InMoney"
+      }
+    },
+    "EURCAD": {
+      "icmarkets": {
+        "long": -3.457,
+        "short": -1.857,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": -3.74,
+        "short": -2.87,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": -4.8,
+        "short": -2.9,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": -4.11,
+        "short": -2.11,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": -7.32,
+        "short": -5.92,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": -4.91,
+        "short": 0.26,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": -3.34,
+        "short": -1.66,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": -4.27,
+        "short": -2.36,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": -4.95,
+        "short": -2.95,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": -2.5,
+        "short": -1.8,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": -5.0,
+        "short": -3.5,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": -5.0,
+        "short": -3.5,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": -5.0,
+        "short": -3.5,
+        "contractSize": 100000
+      }
+    },
     "AUDCAD": {
       "icmarkets": {
-        "long": 4.282,
-        "short": -7.606,
+        "long": 4.309,
+        "short": -7.721,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
@@ -2036,8 +528,8 @@
         "swapType": "InPoints"
       },
       "tickmill": {
-        "long": 3.81,
-        "short": -8.39,
+        "long": 3.9,
+        "short": -8.19,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
@@ -2060,8 +552,8 @@
         "swapType": "InPoints"
       },
       "eightcap": {
-        "long": 3.56,
-        "short": -9.06,
+        "long": 3.54,
+        "short": -9.03,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
@@ -2082,54 +574,1805 @@
         "contractSize": 100000
       }
     },
-    "USOIL": {
+    "CADCHF": {
       "icmarkets": {
-        "long": 10.598,
-        "short": -14.676,
+        "long": 1.91,
+        "short": -5.17,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": 1.6,
+        "short": -5.97,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": 0.79,
+        "short": -5.45,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": 2.72,
+        "short": -4.38,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": 1.31,
+        "short": -6.05,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": 2.05,
+        "short": -5.85,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": 1.66,
+        "short": -5.58,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": 0.9,
+        "short": -5.44,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": 0.38,
+        "short": -6.85,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": 0,
+        "short": -4.5,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": 0.0,
+        "short": -5.4,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": 0.0,
+        "short": -5.4,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": 0.0,
+        "short": -5.4,
+        "contractSize": 100000
+      }
+    },
+    "CADJPY": {
+      "icmarkets": {
+        "long": 3.354,
+        "short": -6.416,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": 1.64,
+        "short": -6.42,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": 1.21,
+        "short": -7.73,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": 3.2,
+        "short": -6.27,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": -1.29,
+        "short": -11.69,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": 3.32,
+        "short": -8.17,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": 2.21,
+        "short": -7.14,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": 2.04,
+        "short": -8.53,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": 1.01,
+        "short": -8.98,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": -1.0,
+        "short": -7.9,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": 0.0,
+        "short": -9.2,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": 0.0,
+        "short": -9.2,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": 0.0,
+        "short": -9.2,
+        "contractSize": 100000
+      }
+    },
+    "UKOIL": {
+      "icmarkets": {
+        "long": 7.899,
+        "short": -11.465,
         "contractSize": 100,
         "swapType": "InPoints"
       },
       "vantage": {
-        "long": 27.6881,
-        "short": -154.4664,
+        "long": 40.2504,
+        "short": -122.6492,
         "contractSize": 1000,
         "swapType": "InPoints"
       },
       "blackbull": {
-        "long": 40.81,
-        "short": -61.59,
+        "long": 30.92,
+        "short": -51.2,
         "contractSize": 1,
         "swapType": "InPoints"
       },
       "tickmill": {
-        "long": 11.73,
-        "short": -14.63,
+        "long": 10.33,
+        "short": -13.0,
         "contractSize": 100,
         "swapType": "InPoints"
       },
       "fpmarkets": {
-        "long": 12.2,
-        "short": -51.5,
+        "long": 29.8,
+        "short": -123.8,
         "contractSize": 1000,
         "swapType": "InPoints"
       },
       "fusionmarkets": {
-        "long": 85.97,
-        "short": -143.11,
+        "long": 61.05,
+        "short": -118.91,
         "contractSize": 1000,
         "swapType": "InPoints"
       },
       "eightcap": {
-        "long": 77.55,
-        "short": -136.71,
+        "long": 77.65,
+        "short": -113.33,
         "contractSize": 100,
         "swapType": "InPoints"
       },
       "ironfx": {
-        "long": 11.18,
-        "short": -115.0,
+        "long": 10.05,
+        "short": -110.0,
         "contractSize": 1000,
         "swapType": "InMoney"
+      }
+    },
+    "EURNZD": {
+      "icmarkets": {
+        "long": -4.956,
+        "short": -1.236,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": -6.99,
+        "short": -0.85,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": -7.86,
+        "short": -3.15,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": -3.68,
+        "short": -1.75,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": -11.56,
+        "short": -6.26,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": -11.71,
+        "short": 3.53,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": -3.82,
+        "short": -2.16,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": -6.23,
+        "short": -3.13,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": -7.53,
+        "short": -1.93,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": -4.9,
+        "short": -1.0,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      }
+    },
+    "NZDJPY": {
+      "icmarkets": {
+        "long": 3.143,
+        "short": -5.757,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": 0.8,
+        "short": -6.43,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": 0.68,
+        "short": -6.73,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": 2.5,
+        "short": -5.36,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": -1.51,
+        "short": -11.91,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": 3.82,
+        "short": -9.56,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": 1.74,
+        "short": -6.98,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": 1.17,
+        "short": -7.07,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": 1.01,
+        "short": -9.94,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": 0,
+        "short": -5.8,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      }
+    },
+    "EURGBP": {
+      "icmarkets": {
+        "long": -6.622,
+        "short": 1.508,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": -7.88,
+        "short": 1.17,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": -6.24,
+        "short": 2.06,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": -5.18,
+        "short": 2.35,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": -6.67,
+        "short": 1.63,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": -6.95,
+        "short": 3.19,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": -6.91,
+        "short": 1.7,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": -6.46,
+        "short": 2.22,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": -8.88,
+        "short": 0.43,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": -5.0,
+        "short": 0,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": -6.9,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": -6.9,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": -6.9,
+        "short": 0.0,
+        "contractSize": 100000
+      }
+    },
+    "GBPJPY": {
+      "icmarkets": {
+        "long": 14.232,
+        "short": -22.348,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": 5.86,
+        "short": -23.15,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": 8.25,
+        "short": -23.39,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": 11.99,
+        "short": -23.31,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": 3.09,
+        "short": -40.51,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": 12.34,
+        "short": -24.84,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": 9.2,
+        "short": -25.09,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": 10.01,
+        "short": -26.2,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": 10.5,
+        "short": -37.85,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": 0,
+        "short": -20.6,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": 0.0,
+        "short": -30.7,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": 0.0,
+        "short": -30.7,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": 0.0,
+        "short": -30.7,
+        "contractSize": 100000
+      }
+    },
+    "AUDNZD": {
+      "icmarkets": {
+        "long": 4.564,
+        "short": -8.646,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": 3.42,
+        "short": -9.17,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": 3.83,
+        "short": -9.87,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": 5.34,
+        "short": -9.21,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": -0.43,
+        "short": -13.03,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": -0.51,
+        "short": -3.34,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": 4.6,
+        "short": -9.18,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": 3.58,
+        "short": -12.14,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": 1.35,
+        "short": -9.68,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": 0,
+        "short": -10.8,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      }
+    },
+    "EURCHF": {
+      "icmarkets": {
+        "long": 2.459,
+        "short": -8.171,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": 2.04,
+        "short": -9.69,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": 1.85,
+        "short": -8.24,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": 3.2,
+        "short": -8.12,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": 0.49,
+        "short": -10.71,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": 2.14,
+        "short": -7.49,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": 1.86,
+        "short": -9.32,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": 2.21,
+        "short": -8.31,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": -0.15,
+        "short": -10.98,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": 0,
+        "short": -7.0,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": 0.0,
+        "short": -9.6,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": 0.0,
+        "short": -9.6,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": 0.0,
+        "short": -9.6,
+        "contractSize": 100000
+      }
+    },
+    "GBPCHF": {
+      "icmarkets": {
+        "long": 5.908,
+        "short": -16.342,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": 5.0,
+        "short": -19.18,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": 4.53,
+        "short": -14.66,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": 7.34,
+        "short": -12.81,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": 5.6,
+        "short": -17.5,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": 5.51,
+        "short": -15.77,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": 4.3,
+        "short": -18.7,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": 5.67,
+        "short": -15.15,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": 3.02,
+        "short": -19.97,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": 0,
+        "short": -13.2,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": 0.0,
+        "short": -16.5,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": 0.0,
+        "short": -16.5,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": 0.0,
+        "short": -16.5,
+        "contractSize": 100000
+      }
+    },
+    "AUDJPY": {
+      "icmarkets": {
+        "long": 10.351,
+        "short": -13.229,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": 2.73,
+        "short": -13.29,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": 6.46,
+        "short": -14.41,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": 9.67,
+        "short": -13.36,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": 5.73,
+        "short": -20.77,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": 5.1,
+        "short": -10.9,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": 6.59,
+        "short": -14.92,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": 6.23,
+        "short": -18.35,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": 5.02,
+        "short": -14.98,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": 0,
+        "short": -2.3,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      }
+    },
+    "NZDCAD": {
+      "icmarkets": {
+        "long": -1.277,
+        "short": -1.917,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": -0.97,
+        "short": -3.01,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": -1.73,
+        "short": -2.33,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": -1.09,
+        "short": -1.16,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": -3.11,
+        "short": -4.11,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": 0.03,
+        "short": -3.55,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": -1.65,
+        "short": -1.33,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": -3.83,
+        "short": -2.07,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": -2.55,
+        "short": -3.98,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": -1.4,
+        "short": -1.7,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      }
+    },
+    "SILVER": {
+      "icmarkets": {
+        "long": -8.895,
+        "short": 7.604,
+        "contractSize": 1000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": -42.31,
+        "short": -1.45,
+        "contractSize": 5000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": -18.05,
+        "short": 3.3,
+        "contractSize": 5000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": -11.29,
+        "short": 5.39,
+        "contractSize": 5000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": -29.03,
+        "short": 3.24,
+        "contractSize": 5000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": -16.54,
+        "short": 2.64,
+        "contractSize": 5000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": -12.15,
+        "short": 0.1,
+        "contractSize": 5000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": -17.51,
+        "short": 3.4,
+        "contractSize": 5000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": -85.0,
+        "short": 12.75,
+        "contractSize": 5000,
+        "swapType": "InMoney"
+      },
+      "exness-std": {
+        "long": -9.0,
+        "short": 0,
+        "contractSize": 5000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 5000
+      }
+    },
+    "AUDCHF": {
+      "icmarkets": {
+        "long": 5.402,
+        "short": -8.488,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": 4.76,
+        "short": -9.65,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": 4.22,
+        "short": -8.83,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": 5.49,
+        "short": -8.95,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": 3.93,
+        "short": -9.57,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": 3.31,
+        "short": -7.1,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": 3.88,
+        "short": -9.35,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": 3.58,
+        "short": -9.22,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": 2.15,
+        "short": -9.97,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": 0,
+        "short": -9.1,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      }
+    },
+    "NATGAS": {
+      "icmarkets": {
+        "long": -52.679,
+        "short": 38.439,
+        "contractSize": 10000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": -6.37,
+        "short": 3.66,
+        "contractSize": 10000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": -3.29,
+        "short": 0.01,
+        "contractSize": 10000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": -2.55,
+        "short": 0.2,
+        "contractSize": 10000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": -55.2,
+        "short": 9.35,
+        "contractSize": 10000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": -25.0,
+        "short": 5.0,
+        "contractSize": 10000,
+        "swapType": "InMoney"
+      }
+    },
+    "CHFJPY": {
+      "icmarkets": {
+        "long": -6.453,
+        "short": 1.677,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": -7.15,
+        "short": 0.68,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": -10.76,
+        "short": -1.36,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": -10.11,
+        "short": -0.24,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": -15.52,
+        "short": -7.92,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": -5.29,
+        "short": 0.43,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": -8.08,
+        "short": 1.61,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": -11.45,
+        "short": 0.83,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": -8.98,
+        "short": 0.57,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": -7.5,
+        "short": 0,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": -9.9,
+        "short": -1.3,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": -9.9,
+        "short": -1.3,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": -9.9,
+        "short": -1.3,
+        "contractSize": 100000
+      }
+    },
+    "EURJPY": {
+      "icmarkets": {
+        "long": 4.838,
+        "short": -9.302,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": 1.46,
+        "short": -9.63,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": 2.4,
+        "short": -11.4,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": 4.47,
+        "short": -9.31,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": -5.02,
+        "short": -23.02,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": 4.39,
+        "short": -10.42,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": 2.99,
+        "short": -10.07,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": 2.62,
+        "short": -12.59,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": 2.05,
+        "short": -12.96,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": 0,
+        "short": -8.8,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": -0.1,
+        "short": -16.0,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": -0.1,
+        "short": -16.0,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": -0.1,
+        "short": -16.0,
+        "contractSize": 100000
+      }
+    },
+    "USDCAD": {
+      "icmarkets": {
+        "long": 2.432,
+        "short": -8.781,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": 2.45,
+        "short": -7.77,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": 1.75,
+        "short": -8.77,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": 4.2,
+        "short": -7.4,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": 1.55,
+        "short": -9.15,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": 3.49,
+        "short": -9.1,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": 3.21,
+        "short": -8.07,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": 2.0,
+        "short": -10.91,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": 0.58,
+        "short": -10.95,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": 0,
+        "short": -7.3,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": 0.0,
+        "short": -8.5,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": 0.0,
+        "short": -8.5,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": 0.0,
+        "short": -8.5,
+        "contractSize": 100000
+      }
+    },
+    "GBPUSD": {
+      "icmarkets": {
+        "long": -3.431,
+        "short": -3.861,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": -0.7,
+        "short": -1.47,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": -2.99,
+        "short": -3.49,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": -1.47,
+        "short": -1.53,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": -3.49,
+        "short": -4.19,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": -2.63,
+        "short": -1.53,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": -1.68,
+        "short": -2.19,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": -2.09,
+        "short": -2.94,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": -3.43,
+        "short": -3.85,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": -1.1,
+        "short": -1.6,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": -3.0,
+        "short": -3.8,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": -3.0,
+        "short": -3.8,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": -3.0,
+        "short": -3.8,
+        "contractSize": 100000
+      }
+    },
+    "USDCHF": {
+      "icmarkets": {
+        "long": 5.621,
+        "short": -10.669,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": 4.91,
+        "short": -12.32,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": 4.29,
+        "short": -10.67,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": 6.37,
+        "short": -9.57,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": 4.05,
+        "short": -12.65,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": 5.97,
+        "short": -11.6,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": 4.36,
+        "short": -11.04,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": 4.11,
+        "short": -10.91,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": 1.01,
+        "short": -14.87,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": 0,
+        "short": -9.2,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": 0.0,
+        "short": -12.2,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": 0.0,
+        "short": -12.2,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": 0.0,
+        "short": -12.2,
+        "contractSize": 100000
+      }
+    },
+    "GBPNZD": {
+      "icmarkets": {
+        "long": 3.027,
+        "short": -14.233,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": 1.18,
+        "short": -15.62,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": 3.21,
+        "short": -14.59,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": 6.18,
+        "short": -13.06,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": -1.87,
+        "short": -19.87,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": 0.85,
+        "short": -9.64,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": 4.25,
+        "short": -15.95,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": 4.04,
+        "short": -16.9,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": 0.18,
+        "short": -14.95,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": 0,
+        "short": -15.9,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      }
+    },
+    "GBPAUD": {
+      "icmarkets": {
+        "long": -8.487,
+        "short": -1.727,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": -9.57,
+        "short": -3.11,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": -7.84,
+        "short": -1.24,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": -7.13,
+        "short": -0.2,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": -11.45,
+        "short": -6.05,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": -1.61,
+        "short": -5.23,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": -8.28,
+        "short": -1.33,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": -7.48,
+        "short": 0.17,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": -9.94,
+        "short": -3.98,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": -5.8,
+        "short": 0,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      }
+    },
+    "GOLD": {
+      "icmarkets": {
+        "long": -54.355,
+        "short": 47.135,
+        "contractSize": 100,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": -83.46,
+        "short": 25.5,
+        "contractSize": 100,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": -69.98,
+        "short": 29.5,
+        "contractSize": 100,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": -59.24,
+        "short": 46.85,
+        "contractSize": 100,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": -99.43,
+        "short": 11.47,
+        "contractSize": 100,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": -71.5,
+        "short": 32.5,
+        "contractSize": 100,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": -65.59,
+        "short": 31.16,
+        "contractSize": 100,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": -80.32,
+        "short": 34.48,
+        "contractSize": 100,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": -58.6,
+        "short": 18.2,
+        "contractSize": 100,
+        "swapType": "InMoney"
+      },
+      "exness-std": {
+        "long": -542.2,
+        "short": 0,
+        "contractSize": 100
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100
+      }
+    },
+    "GBPCAD": {
+      "icmarkets": {
+        "long": 3.078,
+        "short": -12.712,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": 2.83,
+        "short": -15.44,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": 3.3,
+        "short": -12.4,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": 4.98,
+        "short": -10.4,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": 1.33,
+        "short": -16.47,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": 3.34,
+        "short": -11.94,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": 3.04,
+        "short": -12.68,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": 3.92,
+        "short": -12.91,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": 1.09,
+        "short": -15.98,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": 0,
+        "short": -10.3,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": 0.0,
+        "short": -13.3,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": 0.0,
+        "short": -13.3,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": 0.0,
+        "short": -13.3,
+        "contractSize": 100000
+      }
+    },
+    "USDJPY": {
+      "icmarkets": {
+        "long": 10.204,
+        "short": -16.496,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "vantage": {
+        "long": 7.6,
+        "short": -17.66,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "blackbull": {
+        "long": 6.68,
+        "short": -17.27,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "tickmill": {
+        "long": 11.33,
+        "short": -14.93,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "xm": {
+        "long": 2.11,
+        "short": -29.59,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fpmarkets": {
+        "long": 9.54,
+        "short": -18.97,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "fusionmarkets": {
+        "long": 6.57,
+        "short": -18.46,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "eightcap": {
+        "long": 6.61,
+        "short": -19.51,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "ironfx": {
+        "long": 6.76,
+        "short": -19.95,
+        "contractSize": 100000,
+        "swapType": "InPoints"
+      },
+      "exness-std": {
+        "long": 0,
+        "short": -14.8,
+        "contractSize": 100000
+      },
+      "exness-sf": {
+        "long": 0.0,
+        "short": 0.0,
+        "contractSize": 100000
+      },
+      "hf-premium": {
+        "long": 0.0,
+        "short": -22.7,
+        "contractSize": 100000
+      },
+      "hf-pro": {
+        "long": 0.0,
+        "short": -22.7,
+        "contractSize": 100000
+      },
+      "hf-zero": {
+        "long": 0.0,
+        "short": -22.7,
+        "contractSize": 100000
       }
     }
   }
