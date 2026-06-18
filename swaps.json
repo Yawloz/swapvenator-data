@@ -13,8 +13,7 @@
     "icmarkets",
     "ironfx",
     "tickmill",
-    "vantage",
-    "xm"
+    "vantage"
   ],
   "swaps": {
     "AUDJPY": {
@@ -39,12 +38,6 @@
       "tickmill": {
         "long": 9.98,
         "short": -13.76,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": 5.73,
-        "short": -20.77,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
@@ -105,12 +98,6 @@
       "tickmill": {
         "long": -2.45,
         "short": -5.07,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -7.32,
-        "short": -5.92,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
@@ -189,12 +176,6 @@
         "contractSize": 100000,
         "swapType": "InPoints"
       },
-      "xm": {
-        "long": 1.47,
-        "short": -10.13,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
       "fpmarkets": {
         "long": 3.49,
         "short": -9.1,
@@ -270,12 +251,6 @@
         "contractSize": 100000,
         "swapType": "InPoints"
       },
-      "xm": {
-        "long": -3.11,
-        "short": -4.11,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
       "fpmarkets": {
         "long": 0.03,
         "short": -3.55,
@@ -333,12 +308,6 @@
       "tickmill": {
         "long": 5.22,
         "short": -8.94,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": 3.93,
-        "short": -9.57,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
@@ -402,12 +371,6 @@
         "contractSize": 100000,
         "swapType": "InPoints"
       },
-      "xm": {
-        "long": -4.03,
-        "short": 0.47,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
       "fpmarkets": {
         "long": -2.76,
         "short": 0.46,
@@ -465,12 +428,6 @@
       "tickmill": {
         "long": 0.3,
         "short": -1.9,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -2.13,
-        "short": -4.43,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
@@ -546,12 +503,6 @@
       "tickmill": {
         "long": 3.14,
         "short": -6.2,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -1.08,
-        "short": -11.48,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
@@ -668,12 +619,6 @@
         "contractSize": 100000,
         "swapType": "InPoints"
       },
-      "xm": {
-        "long": -3.47,
-        "short": -3.97,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
       "fpmarkets": {
         "long": -2.63,
         "short": -1.53,
@@ -749,12 +694,6 @@
         "contractSize": 100000,
         "swapType": "InPoints"
       },
-      "xm": {
-        "long": 1.48,
-        "short": -5.52,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
       "fpmarkets": {
         "long": 2.63,
         "short": -5.95,
@@ -812,12 +751,6 @@
       "tickmill": {
         "long": -11.63,
         "short": 0.3,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -15.52,
-        "short": -7.92,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
@@ -896,12 +829,6 @@
         "contractSize": 100000,
         "swapType": "InPoints"
       },
-      "xm": {
-        "long": -17.48,
-        "short": 2.82,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
       "fpmarkets": {
         "long": -12.18,
         "short": 5.47,
@@ -959,12 +886,6 @@
       "tickmill": {
         "long": -5.36,
         "short": 2.45,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -6.56,
-        "short": 1.64,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
@@ -1043,12 +964,6 @@
         "contractSize": 100000,
         "swapType": "InPoints"
       },
-      "xm": {
-        "long": 1.33,
-        "short": -16.47,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
       "fpmarkets": {
         "long": 3.34,
         "short": -11.94,
@@ -1121,12 +1036,6 @@
       "tickmill": {
         "long": 7.79,
         "short": -13.44,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": 4.85,
-        "short": -18.05,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
@@ -1205,12 +1114,6 @@
         "contractSize": 100000,
         "swapType": "InPoints"
       },
-      "xm": {
-        "long": 3.63,
-        "short": -13.17,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
       "fpmarkets": {
         "long": 5.97,
         "short": -11.6,
@@ -1283,12 +1186,6 @@
       "tickmill": {
         "long": -6.8,
         "short": 4.1,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -8.46,
-        "short": 2.04,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
@@ -1367,12 +1264,6 @@
         "contractSize": 100000,
         "swapType": "InPoints"
       },
-      "xm": {
-        "long": -2.37,
-        "short": -15.67,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
       "fpmarkets": {
         "long": -0.51,
         "short": -3.34,
@@ -1430,12 +1321,6 @@
       "tickmill": {
         "long": 12.14,
         "short": -22.77,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": 3.09,
-        "short": -40.51,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
@@ -1564,12 +1449,6 @@
         "contractSize": 100000,
         "swapType": "InPoints"
       },
-      "xm": {
-        "long": -11.45,
-        "short": -6.05,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
       "fpmarkets": {
         "long": -1.61,
         "short": -5.23,
@@ -1627,12 +1506,6 @@
       "tickmill": {
         "long": 12.4,
         "short": -16.0,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": 2.11,
-        "short": -29.59,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
@@ -1711,12 +1584,6 @@
         "contractSize": 100000,
         "swapType": "InPoints"
       },
-      "xm": {
-        "long": -11.56,
-        "short": -6.26,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
       "fpmarkets": {
         "long": -11.71,
         "short": 3.53,
@@ -1777,12 +1644,6 @@
         "contractSize": 100000,
         "swapType": "InPoints"
       },
-      "xm": {
-        "long": 0.96,
-        "short": -9.89,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
       "fpmarkets": {
         "long": 1.34,
         "short": -4.77,
@@ -1840,12 +1701,6 @@
       "tickmill": {
         "long": 3.85,
         "short": -8.98,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": 0.35,
-        "short": -10.65,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
@@ -1924,12 +1779,6 @@
         "contractSize": 100000,
         "swapType": "InPoints"
       },
-      "xm": {
-        "long": -5.69,
-        "short": -20.49,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
       "fpmarkets": {
         "long": 4.39,
         "short": -10.42,
@@ -2005,12 +1854,6 @@
         "contractSize": 100000,
         "swapType": "InPoints"
       },
-      "xm": {
-        "long": -1.87,
-        "short": -19.87,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
       "fpmarkets": {
         "long": 0.85,
         "short": -9.64,
@@ -2068,12 +1911,6 @@
       "tickmill": {
         "long": -10.7,
         "short": 5.5,
-        "contractSize": 5000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": -26.38,
-        "short": 2.19,
         "contractSize": 5000,
         "swapType": "InPoints"
       },
@@ -2187,12 +2024,6 @@
         "contractSize": 100,
         "swapType": "InPoints"
       },
-      "xm": {
-        "long": -93.39,
-        "short": 10.74,
-        "contractSize": 100,
-        "swapType": "InPoints"
-      },
       "fpmarkets": {
         "long": -71.5,
         "short": 32.5,
@@ -2253,12 +2084,6 @@
         "contractSize": 100000,
         "swapType": "InPoints"
       },
-      "xm": {
-        "long": -1.51,
-        "short": -11.91,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
       "fpmarkets": {
         "long": 3.82,
         "short": -9.56,
@@ -2316,12 +2141,6 @@
       "tickmill": {
         "long": 2.57,
         "short": -4.2,
-        "contractSize": 100000,
-        "swapType": "InPoints"
-      },
-      "xm": {
-        "long": 1.35,
-        "short": -6.03,
         "contractSize": 100000,
         "swapType": "InPoints"
       },
