@@ -43,7 +43,7 @@ CBF_SYMBOL_MAP = {
     "NG-C":      "NATGAS",
     # Exness energies (canonical already)
     "UKOIL":     "UKOIL",   "USOIL":     "USOIL",
-    # XM uses canonical names directly
+    # Canonical passthrough
     "GOLD":      "GOLD",    "SILVER":    "SILVER",
     # IronFX energies (SpotCmdty group)
     "BRENTCash":   "UKOIL",  "NAT.GASCash": "NATGAS",  "WTICash":     "USOIL",
@@ -89,10 +89,6 @@ CBF_BROKERS = {
         # Tickmill energies: UKOIL/USOIL = 100 barrels per lot, NATGAS = 10000 MMBtu per lot.
         # CBF API reports wrong CS — override with real specs from broker site.
         "contractSize_override": {"UKOIL": 100, "USOIL": 100, "NATGAS": 10000},
-    },
-    278: {
-        "key": "xm",
-        "groups": ["Forex 2", "Forex 3", "Spot Metals"],
     },
     500: {
         "key": "fpmarkets",
@@ -514,7 +510,7 @@ def send_alert_email(cbf_failed, cbf_brokers_with_data, brokers):
     body = (
         f"SwapVenator scraper alert — {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}\n\n"
         f"Only {len(brokers)} broker(s) returned data: {all_brokers}\n\n"
-        f"{cbf_failed}/9 CBF brokers failed. CBF brokers with data: {working_cbf}\n\n"
+        f"{cbf_failed}/{len(CBF_BROKERS)} CBF brokers failed. CBF brokers with data: {working_cbf}\n\n"
         f"swaps.json was NOT updated to protect existing data.\n"
         f"Check the GitHub Actions logs for details."
     )
